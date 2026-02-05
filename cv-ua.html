@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <title>Владислав Космач - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 10px;
+            line-height: 1.35;
+            color: #333;
+            background: #fff;
+            padding: 15px;
+            max-width: 210mm;
+            margin: 0 auto;
+        }
+        @media print {
+            body { padding: 0; }
+            .page-break { page-break-before: always; }
+        }
+        @page {
+            margin: 12mm;
+        }
+        h1 {
+            font-size: 26px;
+            color: #2c3e50;
+            margin-bottom: 3px;
+        }
+        h2 {
+            font-size: 13px;
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 4px;
+            margin: 12px 0 8px 0;
+            text-transform: uppercase;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .header-left img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .contact-info {
+            text-align: right;
+            font-size: 10px;
+        }
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .summary {
+            background: #f8f9fa;
+            padding: 10px;
+            border-left: 4px solid #3498db;
+            margin-bottom: 12px;
+            font-size: 10px;
+        }
+        .skills-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 8px;
+        }
+        .skill-category {
+            flex: 1;
+            min-width: 45%;
+        }
+        .skill-category h3 {
+            font-size: 10px;
+            color: #2c3e50;
+            margin-bottom: 3px;
+        }
+        .skill-category p {
+            font-size: 9px;
+            color: #555;
+        }
+        .job {
+            margin-bottom: 10px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #eee;
+        }
+        .job:last-child {
+            border-bottom: none;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+        .job-title {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 11px;
+        }
+        .job-date {
+            color: #7f8c8d;
+            font-size: 9px;
+        }
+        .job-company {
+            color: #3498db;
+            font-size: 10px;
+            margin-bottom: 4px;
+        }
+        .job-duties {
+            font-size: 9px;
+            color: #555;
+            padding-left: 12px;
+        }
+        .job-duties li {
+            margin-bottom: 1px;
+        }
+        .job-domain {
+            font-size: 9px;
+            color: #666;
+            font-style: italic;
+            margin-top: 3px;
+        }
+        .education-item {
+            margin-bottom: 6px;
+            font-size: 10px;
+        }
+        .two-columns {
+            display: flex;
+            gap: 15px;
+        }
+        .two-columns > div {
+            flex: 1;
+        }
+        .languages, .qualities {
+            font-size: 10px;
+        }
+        .languages li, .qualities li {
+            margin-bottom: 2px;
+        }
+        .certs {
+            font-size: 9px;
+        }
+        .certs li {
+            margin-bottom: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <img src="img/profile.png" alt="Фото">
+            <div>
+                <h1>Владислав Космач</h1>
+                <p style="font-size: 13px; color: #7f8c8d;">Full Stack Engineer / Team Lead</p>
+            </div>
+        </div>
+        <div class="contact-info">
+            <p><a href="mailto:ivlad003@gmail.com">ivlad003@gmail.com</a></p>
+            <p><a href="tel:+380734217457">+380 73 421 74 57</a></p>
+            <p>Telegram: <a href="https://t.me/kosmodev">@kosmodev</a></p>
+            <p><a href="https://www.linkedin.com/in/ivlad003/">linkedin.com/in/ivlad003</a></p>
+        </div>
+    </div>
+
+    <div class="summary">
+        Software Engineer з понад 11 роками досвіду у full-stack розробці та керівництві командами. Як Team Lead та Tech Lead керував junior, middle та senior розробниками, надаючи технічну підтримку та сприяючи професійному розвитку команди. Маю досвід створення масштабованих хмарних застосунків з використанням Node.js, JavaScript/TypeScript, AWS та сучасних фреймворків (React, Angular, Vue). Працюю з low-code платформами, AI агентами та автоматизацією (n8n). Реалізовував проєкти у сферах e-commerce, фінтех, управління автопарком та інтеграції даних.
+    </div>
+
+    <h2>Технічні навички</h2>
+    <div class="skills-section">
+        <div class="skill-category">
+            <h3>Мови та технології</h3>
+            <p>Python, JavaScript, TypeScript, Node.js, Java, Kotlin, Swift, SCSS, HTML/CSS</p>
+        </div>
+        <div class="skill-category">
+            <h3>Фреймворки та платформи</h3>
+            <p>React.js, Angular, Vue.js, Nuxt.js, Next.js, Express.js, Nest.js, Spring, Redux, Vue Storefront, React Native</p>
+        </div>
+        <div class="skill-category">
+            <h3>Бази даних</h3>
+            <p>PostgreSQL, MongoDB, Redis, SQLite, RealmDB</p>
+        </div>
+        <div class="skill-category">
+            <h3>Хмарні сервіси та DevOps</h3>
+            <p>AWS (Lambda, RDS, Cognito, S3, CloudFront, EC2, VPC, CloudWatch), Kubernetes, Docker, CI/CD</p>
+        </div>
+        <div class="skill-category">
+            <h3>Low-code / Автоматизація / AI</h3>
+            <p>n8n, AI Agents, Low-code platforms, SaaS</p>
+        </div>
+        <div class="skill-category">
+            <h3>E-commerce</h3>
+            <p>Salesforce Commerce Cloud (SFCC/SFRA), Commercetools, Scayle, Demandware</p>
+        </div>
+    </div>
+
+    <h2>Досвід роботи</h2>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Full Stack Engineer</span>
+            <span class="job-date">10.2025 - теперішній час</span>
+        </div>
+        <div class="job-company">code.store</div>
+        <ul class="job-duties">
+            <li>Розробка ERP та бізнес-застосунків (Python, Node.js, JavaScript, TypeScript)</li>
+            <li>Впровадження AI-рішень, low-code платформ та SaaS</li>
+            <li>Автоматизація процесів з використанням n8n</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Full-stack Developer + Mobile (React Native)</span>
+            <span class="job-date">06.2025 - 09.2025</span>
+        </div>
+        <div class="job-company">Fintech (Short-term project)</div>
+        <ul class="job-duties">
+            <li>Розробка фінтех застосунку</li>
+            <li>Мобільна розробка на React Native</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Full Stack Engineer</span>
+            <span class="job-date">07.2024 - 06.2025</span>
+        </div>
+        <div class="job-company">Techery</div>
+        <ul class="job-duties">
+            <li>Розробка та підтримка хмарних застосунків (NodeJS, TypeScript, Java, Spring, Kafka, Auth0, NextJs, Redis, Express.js, Angular, Docker)</li>
+            <li>Міграція управління сесіями користувачів для 1+ мільйона користувачів</li>
+            <li>Code review, покращення процесу розробки за допомогою AI-інструментів</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Node.js Engineer / Mobile Dev (React Native)</span>
+            <span class="job-date">02.2023 - 07.2024</span>
+        </div>
+        <div class="job-company">logifyeld</div>
+        <ul class="job-duties">
+            <li>Розробка хмарних застосунків з використанням AWS Serverless, Nest.js, PostgreSQL, Redis, Socket.io</li>
+            <li>Проєктування архітектури системи</li>
+            <li>Розробка мобільного застосунку (React Native)</li>
+        </ul>
+        <p class="job-domain">Домен: Система управління автопарком для організації та координації транспортних засобів.</p>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Node.js Headless Developer</span>
+            <span class="job-date">07.2022 - 02.2023</span>
+        </div>
+        <div class="job-company">Astound Commerce</div>
+        <ul class="job-duties">
+            <li>Розробка хмарних застосунків (NodeJS, Vue, Nuxt, TypeScript, Vue Storefront, React, Redux, Commercetools, Scayle, Kubernetes)</li>
+            <li>REST APIs, SFCC інтеграція</li>
+        </ul>
+        <p class="job-domain">Домен: Headless e-commerce з інтеграцією Scyle Commerce Cloud, Salesforce, CRM та Adyen.</p>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Salesforce Developer (SFCC)</span>
+            <span class="job-date">10.2020 - 07.2022</span>
+        </div>
+        <div class="job-company">Astound Commerce</div>
+        <ul class="job-duties">
+            <li>SFCC/SFRA розробка, React.js</li>
+            <li>Керівництво junior, middle та senior розробниками</li>
+            <li>Інтеграція PayPal, reCAPTCHA</li>
+            <li>Створення навчальних програм для SFCC</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">JavaScript Engineer / Team Lead</span>
+            <span class="job-date">12.2019 - 09.2020</span>
+        </div>
+        <div class="job-company">Raccoon LLC / Five Sys Dev</div>
+        <ul class="job-duties">
+            <li>Розробка хмарних застосунків (NodeJS, Angular 2+, ReactJS, AWS, CI/CD)</li>
+            <li>E-commerce платформа з інтеграцією Klarna</li>
+            <li>Dashboard для сервісу шифрованого стрімінгу</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Team Lead JavaScript Developer</span>
+            <span class="job-date">03.2018 - 12.2019</span>
+        </div>
+        <div class="job-company">The Glyph Studio</div>
+        <ul class="job-duties">
+            <li>Розробка хмарних застосунків (NodeJS, Angular 2+, ReactJS, MongoDB, Docker)</li>
+            <li>Керівництво junior розробниками</li>
+            <li>Site builder платформа з drag-and-drop інтерфейсом</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Mobile Developer</span>
+            <span class="job-date">09.2017 - 03.2018</span>
+        </div>
+        <div class="job-company">GoGo Cab</div>
+        <ul class="job-duties">
+            <li>Розробка Android/iOS застосунків (Java, Kotlin, Swift, RealmDB)</li>
+            <li>Проєктування архітектури проєкту</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Android Developer</span>
+            <span class="job-date">10.2015 - 07.2017</span>
+        </div>
+        <div class="job-company">Lindenvalley GmbH</div>
+        <ul class="job-duties">
+            <li>Розробка Android застосунків (Java, Dropbox/Google/Facebook API, REST API, RealmDB)</li>
+            <li>Проєктування архітектури</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Software Engineer / Android Developer</span>
+            <span class="job-date">11.2013 - 09.2015</span>
+        </div>
+        <div class="job-company">Freelance / TechFunder</div>
+        <ul class="job-duties">
+            <li>Розробка Android застосунків (Java, SVN, Git, SQLite, OpenGL)</li>
+        </ul>
+    </div>
+
+    <h2>Освіта та сертифікати</h2>
+    <div class="education-item">
+        <strong>2012 - 2014</strong> - IT Step Academy - Software Engineer
+    </div>
+    <ul class="certs">
+        <li><strong>2025</strong> - Product Manager Bootcamp - Asta Academy Ukraine</li>
+        <li><strong>2023</strong> - Intro to Machine Learning - Kaggle</li>
+    </ul>
+
+    <div class="two-columns" style="margin-top: 10px;">
+        <div>
+            <h2>Мови</h2>
+            <ul class="languages">
+                <li>Українська - рідна</li>
+                <li>Англійська - upper-intermediate</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Особисті якості</h2>
+            <ul class="qualities">
+                <li>Лідерство та керівництво командами</li>
+                <li>Проєктування архітектури</li>
+                <li>Менторство</li>
+                <li>Розуміння SDLC</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <title>Владислав Космач - Менеджер проєктів</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 10px;
+            line-height: 1.4;
+            color: #333;
+            background: #fff;
+            padding: 15px;
+            max-width: 210mm;
+            margin: 0 auto;
+        }
+        @media print {
+            body { padding: 0; }
+        }
+        @page {
+            margin: 12mm;
+        }
+        h1 {
+            font-size: 26px;
+            color: #2c3e50;
+            margin-bottom: 3px;
+        }
+        h2 {
+            font-size: 13px;
+            color: #e67e22;
+            border-bottom: 2px solid #e67e22;
+            padding-bottom: 4px;
+            margin: 14px 0 8px 0;
+            text-transform: uppercase;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .header-left img {
+            width: 85px;
+            height: 85px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .position-target {
+            background: #e67e22;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 3px;
+            font-size: 11px;
+            display: inline-block;
+            margin-top: 5px;
+        }
+        .contact-info {
+            text-align: right;
+            font-size: 10px;
+        }
+        .contact-info a {
+            color: #e67e22;
+            text-decoration: none;
+        }
+        .summary {
+            background: #fef5e7;
+            padding: 10px;
+            border-left: 4px solid #e67e22;
+            margin-bottom: 12px;
+            font-size: 10px;
+        }
+        .highlight {
+            background: #fff3cd;
+            padding: 8px;
+            border-radius: 4px;
+            margin-bottom: 12px;
+            font-size: 10px;
+        }
+        .highlight strong {
+            color: #e67e22;
+        }
+        .skills-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+        .skill-category {
+            flex: 1;
+            min-width: 30%;
+            background: #f8f9fa;
+            padding: 6px;
+            border-radius: 4px;
+        }
+        .skill-category h3 {
+            font-size: 10px;
+            color: #2c3e50;
+            margin-bottom: 3px;
+        }
+        .skill-category p {
+            font-size: 9px;
+            color: #555;
+        }
+        .job {
+            margin-bottom: 10px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #eee;
+        }
+        .job:last-child {
+            border-bottom: none;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+        .job-title {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 11px;
+        }
+        .job-date {
+            color: #7f8c8d;
+            font-size: 9px;
+        }
+        .job-company {
+            color: #e67e22;
+            font-size: 10px;
+            margin-bottom: 4px;
+        }
+        .job-duties {
+            font-size: 9px;
+            color: #555;
+            padding-left: 12px;
+        }
+        .job-duties li {
+            margin-bottom: 2px;
+        }
+        .relevant {
+            background: #fff8e1;
+            padding: 2px 5px;
+            border-radius: 2px;
+            font-weight: bold;
+        }
+        .two-columns {
+            display: flex;
+            gap: 15px;
+        }
+        .two-columns > div {
+            flex: 1;
+        }
+        ul {
+            font-size: 10px;
+        }
+        li {
+            margin-bottom: 2px;
+        }
+        .certs {
+            font-size: 9px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <img src="img/profile.png" alt="Фото">
+            <div>
+                <h1>Владислав Космач</h1>
+                <p style="font-size: 13px; color: #7f8c8d;">Керівник проєктів / Tech Lead</p>
+                <div class="position-target">Кандидат на посаду: Менеджер проєктів</div>
+            </div>
+        </div>
+        <div class="contact-info">
+            <p><a href="mailto:ivlad003@gmail.com">ivlad003@gmail.com</a></p>
+            <p><a href="tel:+380734217457">+380 73 421 74 57</a></p>
+            <p>Telegram: <a href="https://t.me/kosmodev">@kosmodev</a></p>
+            <p><strong>Вінниця, Україна</strong></p>
+            <p><a href="https://www.linkedin.com/in/ivlad003/">linkedin.com/in/ivlad003</a></p>
+        </div>
+    </div>
+
+    <div class="summary">
+        <strong>Досвідчений керівник проєктів та Tech Lead</strong> з понад 11 роками досвіду в IT. Маю значний досвід <strong>управління командами розробників</strong> (junior, middle, senior), планування та контролю виконання проєктів, розробки архітектурних рішень та технічної документації. Володію глибокими знаннями в розробці програмного забезпечення, базах даних та сучасних технологіях. Готовий застосувати свій досвід для впровадження інноваційних рішень в енергетичному секторі.
+    </div>
+
+    <div class="highlight">
+        <strong>Відповідність вимогам вакансії:</strong> Досвід керівництва проєктами 5+ років | Управління командами розробників | Розробка ПЗ та баз даних | Python, JavaScript/TypeScript, Node.js, Java | PostgreSQL, MySQL | AI/ML | Архітектурні рішення | Технічна документація | Вища освіта (Software Engineer)
+    </div>
+
+    <h2>Ключові компетенції для позиції</h2>
+    <div class="skills-section">
+        <div class="skill-category">
+            <h3>Керівництво проєктами</h3>
+            <p>Планування етапів, розподіл завдань, контроль виконання, оцінка результатів, управління ризиками</p>
+        </div>
+        <div class="skill-category">
+            <h3>Управління командою</h3>
+            <p>Керівництво junior/middle/senior розробниками, менторство, code review, розв'язання конфліктів</p>
+        </div>
+        <div class="skill-category">
+            <h3>Мови програмування</h3>
+            <p>Python, JavaScript, TypeScript, Node.js, Java, PHP, C++ (базово)</p>
+        </div>
+        <div class="skill-category">
+            <h3>Бази даних</h3>
+            <p>PostgreSQL, MySQL, SQLite, MongoDB, Redis, проєктування структур БД</p>
+        </div>
+        <div class="skill-category">
+            <h3>Архітектура та розробка</h3>
+            <p>Проєктування архітектури, рефакторинг, REST API, мікросервіси, автоматизація процесів</p>
+        </div>
+        <div class="skill-category">
+            <h3>Інструменти</h3>
+            <p>Linux/Windows, Git, Docker, AWS, CI/CD, MS Office (Word, Excel, PowerPoint)</p>
+        </div>
+    </div>
+
+    <h2>Досвід роботи (керівні посади)</h2>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Full Stack Engineer</span>
+            <span class="job-date">10.2025 - теперішній час</span>
+        </div>
+        <div class="job-company">code.store</div>
+        <ul class="job-duties">
+            <li>Розробка ERP та бізнес-застосунків (<span class="relevant">Python, Node.js, JavaScript, TypeScript</span>)</li>
+            <li>Впровадження <span class="relevant">AI-рішень</span> та автоматизація процесів</li>
+            <li>Робота з low-code платформами та SaaS</li>
+            <li>Написання технічної документації</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Full Stack Engineer</span>
+            <span class="job-date">07.2024 - 06.2025</span>
+        </div>
+        <div class="job-company">Techery</div>
+        <ul class="job-duties">
+            <li>Розробка та підтримка хмарних застосунків (<span class="relevant">Node.js, TypeScript, Java</span>, Spring, Kafka)</li>
+            <li><span class="relevant">Міграція системи</span> управління сесіями для 1+ мільйона користувачів</li>
+            <li>Code review, впровадження нових процесів розробки</li>
+            <li>Робота з <span class="relevant">PostgreSQL</span>, Redis, проєктування БД</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Tech Lead / Node.js Engineer</span>
+            <span class="job-date">02.2023 - 07.2024</span>
+        </div>
+        <div class="job-company">logifyeld</div>
+        <ul class="job-duties">
+            <li><span class="relevant">Керівництво командою</span> middle та senior розробників</li>
+            <li><span class="relevant">Проєктування архітектури</span> системи управління автопарком</li>
+            <li>Розробка на Node.js, Nest.js, <span class="relevant">PostgreSQL</span>, Redis</li>
+            <li>Планування етапів проєкту та розподіл завдань</li>
+            <li>Розробка технічних завдань та документації</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Team Lead / Node.js Headless Developer</span>
+            <span class="job-date">07.2022 - 02.2023</span>
+        </div>
+        <div class="job-company">Astound Commerce</div>
+        <ul class="job-duties">
+            <li>Розробка e-commerce рішень (Node.js, Vue, TypeScript, <span class="relevant">PostgreSQL</span>)</li>
+            <li>Інтеграція з зовнішніми системами (REST APIs, Kubernetes)</li>
+            <li><span class="relevant">Рефакторинг</span> та оптимізація існуючих компонентів</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Team Lead / Salesforce Developer (SFCC)</span>
+            <span class="job-date">10.2020 - 07.2022</span>
+        </div>
+        <div class="job-company">Astound Commerce</div>
+        <ul class="job-duties">
+            <li><span class="relevant">Керівництво командою</span> junior, middle та senior розробників</li>
+            <li><span class="relevant">Розробка технічних завдань</span> та бізнес-вимог</li>
+            <li><span class="relevant">Створення навчальних програм</span> та інструкцій для команди</li>
+            <li>Планування та контроль виконання етапів проєктів</li>
+            <li>Взаємодія зі стейкхолдерами для досягнення цілей проєкту</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Team Lead JavaScript Developer</span>
+            <span class="job-date">03.2018 - 09.2020</span>
+        </div>
+        <div class="job-company">The Glyph Studio / Five Sys Dev / Raccoon LLC</div>
+        <ul class="job-duties">
+            <li><span class="relevant">Керівництво командою</span> розробників</li>
+            <li>Розробка на Node.js, Angular, React, <span class="relevant">MongoDB, MySQL</span></li>
+            <li>Проєктування архітектури веб-застосунків</li>
+            <li>Налаштування Linux серверів, CI/CD, AWS</li>
+            <li>Написання unit-тестів та технічної документації</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Software Engineer / Mobile Developer</span>
+            <span class="job-date">11.2013 - 03.2018</span>
+        </div>
+        <div class="job-company">GoGo Cab / Lindenvalley GmbH / TechFunder</div>
+        <ul class="job-duties">
+            <li>Розробка програмного забезпечення (<span class="relevant">Java</span>, Kotlin, Swift)</li>
+            <li>Проєктування архітектури застосунків</li>
+            <li>Робота з базами даних (<span class="relevant">SQLite</span>, RealmDB)</li>
+            <li>Керівництво junior розробниками</li>
+        </ul>
+    </div>
+
+    <h2>Освіта та сертифікати</h2>
+    <div style="margin-bottom: 8px;">
+        <strong>2012 - 2014</strong> - IT Step Academy - <strong>Software Engineer</strong> (Вища освіта)
+    </div>
+    <ul class="certs">
+        <li><strong>2025</strong> - Product Manager Bootcamp - Asta Academy Ukraine</li>
+        <li><strong>2023</strong> - Intro to Machine Learning - Kaggle</li>
+    </ul>
+
+    <div class="two-columns" style="margin-top: 12px;">
+        <div>
+            <h2>Мови</h2>
+            <ul>
+                <li>Українська - рідна</li>
+                <li>Англійська - upper-intermediate</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Особисті якості</h2>
+            <ul>
+                <li>Лідерство та керівництво командами</li>
+                <li>Прийняття рішень та адаптація до змін</li>
+                <li>Комунікаційні навички</li>
+                <li>Вміння презентувати результати роботи</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

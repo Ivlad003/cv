@@ -1,0 +1,412 @@
+﻿Vladyslav Kosmach
+
+
+ivlad003@gmail.com 
++380734217457
+Tg: @kosmodev
+
+
+
+
+I am Vladyslav Kosmach, a Software Engineer with more than 11 years of experience, focusing on full-stack development and team leadership. In my roles as Team Lead and Tech Lead, I have led junior, middle, and senior developers, providing guidance, technical support, and fostering professional growth within the team.
+My background includes building and maintaining scalable cloud-based applications using Node.js, JavaScript/TypeScript, AWS, and modern frameworks such as React, Angular, and Vue. I have delivered solutions across e-commerce, fleet management, and data integration projects, always balancing technical quality with business needs.
+I am passionate about mentoring developers, improving team efficiency, and ensuring smooth collaboration across projects. Now I am ready for a new challenge where I can continue leading teams and driving impactful results.
+
+
+
+
+
+
+SKILLS AND EXPERTISE
+
+
+Languages & Technologies
+
+
+   Tools/ Libraries/ Frameworks/ Platforms
+________________
+
+
+Java, Kotlin, swift, JavaScript, Typescript, Node.JS,SCSS, HTML/CSS  
+
+
+Bootstrap, React.js, Express.js, WebSocket, MongoDB, Angular.js, Web Components, Android, iOS, OpenGL, image editors, Telegram Bot API, Android Wear, custom maps, geolocation, Facebook API, Dropbox API, Google API, RealmDB, SQLite, Android embedded hardware, Redis, Vue.js, Nuxt.js, TypeScript, Vue Storefront, cloud platforms, Bitbucket Pipelines, Redux, Kotlin, Android SDK, ESLint, Commerce SDK (SFCC), Commercetools, Scayle, Kubernetes, AWS, AWS Serverless
+
+
+
+
+
+
+CAREER HISTORY
+
+
+Company
+	Techery
+	Duration
+	06.2024 -  Present time
+	Position
+
+
+Tasks & Duties
+	Senior Full-stack developer
+• Develop and maintain highly available, scalable, cloud-based applications using NodeJS, JavaScript, TypeScript, Java, Spring, Kafka, Exigo, Auth0, NextJs, Redis, Expressjs, Angular, Docker Compose, Docker, Git, NewRelic etc 
+* Migrate user session management for 1+million users
+* Review PR, improve dev process experience with AI tools 
+* Client support 
+*  Develop and maintain fullstack applications.
+* Writing documentation
+* Implement new features.
+* Bug Fix
+
+
+	Company
+	Freelance
+	
+
+Duration
+	
+
+12.2023 -  06.2024
+	Position
+
+
+Tasks & Duties
+	 Tech lead, Senior Nodejs Developer, Mobile Developer (iOS)
+
+
+• Develop and maintain highly available, scalable, cloud-based applications using AWS, NodeJS, JavaScript, TypeScript, Postgress, Serverless( Lambda, RDS, cognito, iam, s3, CloudFront, ec2, Secrets Manage, VPC, CloudWatch), swift, swiftui. Nest.js, microservices, gcloud, k8s, pg, redis, socket.io
+
+
+• Team Lead activity. 
+• Design architecture.
+• Develop and maintain backend applications.
+ • Lead middle, and senior developers and provide guidance and technical support. 
+• Setting up and managing AWS services. 
+• Develop mobile app iOS (1. swift, swiftUIi 2. React Native, redux ect)
+
+
+Domain: 
+The Advanced Fleet Management System is a sophisticated software solution designed to streamline the organization and coordination of vehicle fleets. This project aimed to enhance operational efficiency, ensure safety compliance, and adhere to governmental regulations. The system integrates advanced tracking technologies and data analytics to facilitate real-time monitoring and informed decision-making.
+	
+
+
+
+
+
+	
+
+	Company
+	Freelance
+	
+
+Duration
+	
+
+07.2023 - 12..2023
+	Position
+
+
+Tasks & Duties
+	  Senior Nodejs Developer
+Project hitachi
+•Develop and maintain highly available, scalable, cloud-based applications using NodeJS, JavaScript, TypeScript, React, Kubernetes API, Postgress,Nest.js.
+• Bug fix. 
+• Implement new features.
+• Create a certificate  generator.
+• Create offline LLM chat with code.
+• Setting up and managing AWS services. 
+Tech stack: GraphQL, Postgresql, pqsql, docker, s2. 
+
+
+Domain: 
+This project involved the development of a robust database management system designed to aggregate and analyze data from multiple sources. The objective was to create a unified platform for data extraction, matching, grouping, sorting, and analytical processing to support business intelligence and decision-making processes.
+
+
+	
+
+
+
+
+
+	
+
+	Company
+	Platma
+	
+
+Duration
+	
+
+04.2023 - 07.2023
+	Position
+
+
+Tasks & Duties
+	  Tech lead, Senior Nodejs Developer
+Project 1:
+• Develop and maintain highly available, scalable, cloud-based applications using NodeJS, Java Script, TypeScript, React, Kubernetes, Kubernetes API, postgress, nestjs.
+• Teamlead activity. 
+• Design architecture.
+• Writing documentation. 
+• Lead middle, and senior developers and provide guidance and technical support. 
+• Setting up and managing AWS services. 
+
+
+Domain: 
+Platma represents a groundbreaking shift in data integration, offering a low-code/no-code platform designed to simplify and boost the efficiency of data processing and management across diverse systems. The primary goal of this project was to create a scalable, secure, and flexible platform that enables effortless data exchange and integration between various applications and databases, even for users with minimal coding expertise.
+	
+
+
+
+Company
+	Astound
+	
+
+Position
+
+
+
+
+Technologies
+
+
+
+
+
+
+
+
+
+
+Duration
+	
+
+Team Lead, Senior Nodejs Headless Developer (7m), Senior Salesforce Developer (SFCC/SFRA) (1y 11m)
+
+
+NodeJS, JS, SCSS, html, css, gulp, webpack, git, aws, ci/cd, demandware, DemandwareScript, jQuery, ISML, redis, vue,Next.js, typescript, vuestorefront, cloud, bitbucket pipelines, react, redux, kotlin, android sdk, ESLint, commerce-sdk(SFCC), Commercetools, Scayle, Kubernetes
+09.2020 – 03.2023
+	
+
+Tasks & Duties
+	
+
+•        Develop and maintain highly available, scalable, cloud-based applications using NodeJS, Java Script, HTML, CSS, SCSS, Gulp, Webpack, GIT, AWS, CI/CD, Demandware, DemandwareScript, jQuery, ISML, Redis, Vue, Nuxt, TypeScript, VueStorefront, Cloud, Bitbucket Pipelines, React, Redux, Kotlin, Android SDK, ESLint, Commerce-SDK (SFCC), Commercetools, Scayle, and Kubernetes.
+ •        Develop, maintain and troubleshoot API services for processing data from a queue. 
+•        Lead junior, middle, and senior developers and provide guidance and technical support. 
+•        Setup AWS and other cloud platforms. 
+•        Develop and maintain frontend applications.
+•        Develop and maintain backend applications. 
+•        Add additional functionality to PayPal pipelines.
+ •        Lead SFCC integration projects.
+ •        Integrate reCAPTCHA into existing applications. •        Create and maintain training programs for SFCC switchers.
+ •        Work with stakeholders to understand requirements and develop solutions. 
+•        Optimize existing applications for performance and scalability. 
+•        Troubleshoot and debug applications. 
+•        Create and maintain technical documentation.
+ •        Collaborate with cross-functional teams to ensure successful delivery of projects.
+• Writing and maintaining unit tests. 
+• Optimizing performance and scalability. 
+• Writing documentation. 
+Doman: 
+This project focused on creating an advanced headless e-commerce development kit, designed to provide a flexible, scalable, and efficient solution for building customized e-commerce experiences. The kit integrates with Scyle Commerce Cloud, Salesforce, CRM admin panels, and Adyen, offering a comprehensive toolset for modern e-commerce businesses.
+	
+
+
+
+
+
+Company
+	Raccoon LLC
+	
+
+Technologies
+
+
+Duration
+	NodeJS, JS, SCSS, html, css, gulp, webpack, git, aws, ci/cd, demandware, DemandwareScript, jQuery, ISML
+04.2020 – 09.2020
+	Position
+
+
+Tasks & Duties
+	Salesforce Developer SFCC
+•        Develop and maintain highly available, scalable, cloud-based applications using NodeJS, JavaScript, HTML, CSS, SCSS, Gulp, Webpack, GIT, CI/CD, Demandware, DemandwareScript, jQuery, and ISML.
+•        Develop, maintain and troubleshoot API services for processing data from a queue.
+•        Lead junior developers and provide guidance and technical support. 
+•        Develop and maintain backend applications.
+•        Develop and maintain frontend applications.
+•        Optimize existing applications for performance and scalability.
+•        Troubleshoot and debug applications.
+•        Collaborate with cross-functional teams to ensure successful delivery of projects.
+Domain: 
+This project involved the development of a robust e-commerce platform using Salesforce Commerce Cloud and Node.js, integrated with Klarna for payment processing. The platform was tailored to offer a seamless, user-friendly shopping experience, with a focus on customization to meet specific business requirements and enhance customer engagement.
+	
+
+
+
+Company
+	Five Sys dev
+	
+
+Technologies
+
+
+Duration
+	NodeJS, JS, Angular 2+, ReactJS, linux, SCSS, html, css, gulp, google scripts, bash, git, aws, ci/cd.
+12.2019 – 04.2020
+	Position
+
+
+Tasks & Duties
+	Javascript Engineer
+• Develop and maintain highly available, scalable, cloud-based applications using  NodeJS, JS, Angular 2+, ReactJS, SCSS, HTML, and CSS. 
+• Utilizing tools such as Gulp, Google Scripts, Bash, Git, and AWS for development and deployment.
+ • Creating and maintaining CI/CD pipelines.
+ • Developing and supporting API services for processing data from a queue.
+ • Lead junior, middle, and senior developers and provide guidance and technical support.
+ • Setting up and managing AWS services. 
+• Developing frontend applications and components.
+Domain: 
+The project involved developing a comprehensive dashboard for an advanced Encryption Streaming Service. The goal was to create a user-friendly interface that allows for real-time monitoring, management, and analytics of encrypted streaming content, ensuring secure and efficient delivery of media.
+	
+
+
+
+Company
+	THE GLYPH STUDIO
+	
+
+Technologies
+
+
+Duration
+	NodeJS, JS, ES, Angular 2+, ReactJS, MongoDB, Docker, linux, nginx, MacOS, SCSS, html, css, gulp, webcomponents. google scripts, bash, git.
+03.2018 – 12.2019
+	Position
+
+
+Tasks & Duties
+	Teamlead Javascript Developer
+• Develop and maintain highly available, scalable, cloud-based applications using  NodeJS, JS, ES, Angular 2+, ReactJS, MongoDB, Docker, linux, nginx, MacOS, SCSS, html, css, gulp, webcomponents. google scripts, bash, git.
+ • Utilizing web components and tools such as Gulp, Google Scripts, Bash, and Git for development and deployment.
+ • Developing and supporting API services for processing data from a queue. 
+• Led two junior developers. 
+• Setting up and managing Linux servers. 
+• Developing frontend and backend applications and components.
+• Writing and maintaining unit tests. 
+• Optimizing performance and scalability. 
+• Writing documentation. 
+• Troubleshooting and debugging. 
+• Deploying applications and services.
+ • Monitoring and maintaining system health.
+Domain: 
+The project involved developing an intuitive site builder platform designed for users with minimal technical expertise. The focus was on creating a simple, drag-and-drop interface with various customizable templates and features, making website creation straightforward and accessible.
+	
+
+
+
+
+
+Company
+	GoGo Cab
+	Technologies
+Duration
+	Java, Kotlin, Swift, Android, iOS, realmdb, git.
+09.2017 – 03.2018
+	Position
+Tasks & Duties
+	Mobile developer
+Leading Android junior, developing project architecture, add new functional.
+	
+
+
+
+
+
+
+
+Company
+	Lindenvalley GmbH
+	
+
+Technologies
+
+
+Duration
+	Java, Android, Dropbox api, Google api, Facebook api, Rest Api, image processing, realmdb. git.
+10.2015– 07.2017
+	Position
+
+
+Tasks & Duties
+	Android developer
+Developing project architecture
+Developing and support android apps, leading Android junior.
+	
+
+
+
+
+
+
+
+Project
+	Freelance 
+	Technologies
+Duration
+	Android, Java, svn, git, sqlite, openql, scala, angular js.
+03.2014 – 09.2015
+	Position
+	Software engineer
+	
+
+
+
+
+
+
+
+Project
+	TechFunder
+	Technologies
+Duration
+	Android, java
+11.2013 – 03.2014
+	Position
+Tasks & Duties
+	Android developer
+Developing and support android apps.
+	
+
+
+
+EDUCATION AND CERTIFICATIONS
+
+
+2012        STEP IT ACADEMY Software engineer  
+
+
+
+
+LANGUAGES
+Ukrainian – native, English – upper-intermediate
+
+
+
+
+PERSONAL QUALITIES
+* Decision-making opportunities
+*  Environment with lots of freedom
+* Manage data architecture and integrity
+* Commitment to achieving stretch goals
+* Design of the overall architecture of the web application
+* Develop application platform using the latest technologies
+* Leading technical teams
+* Knowledge of web development standards
+* Understanding of software development life cycle
+* Experience with source control management tools
+* Knowledge of coding best practices 
+* Experience with modern web technologies
+HOBBIES AND ACTIVITIES
+Fishing, family time, Photography, drive bike, walk, cat, coding

@@ -22,6 +22,48 @@
         @media print {
             body { padding: 0; }
             .page-break { page-break-before: always; }
+            .cv-nav { display: none; }
+        }
+        .cv-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background: #2c3e50;
+            border-radius: 6px;
+            margin-bottom: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .cv-nav .cv-versions, .cv-nav .cv-lang {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+        }
+        .cv-nav a, .cv-nav span {
+            color: #bdc3c7;
+            text-decoration: none;
+            font-size: 12px;
+            padding: 4px 12px;
+            border: 1px solid #4a6070;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+        .cv-nav a:hover {
+            color: #fff;
+            border-color: #fff;
+        }
+        .cv-nav .active {
+            color: #fff;
+            border-color: #fff;
+            background: #3498db;
+        }
+        .cv-nav .cv-download {
+            color: #2ecc71;
+            border-color: #2ecc71;
+        }
+        .cv-nav .cv-download:hover {
+            background: #2ecc71;
+            color: #fff;
         }
         @page {
             margin: 12mm;
@@ -158,6 +200,18 @@
     </style>
 </head>
 <body>
+<nav class="cv-nav">
+    <div class="cv-versions">
+        <a href="index.html">Основне CV</a>
+        <span class="active">Детальне CV</span>
+        <a href="cv-vinnytsiaoblenergo.html">Project Manager</a>
+    </div>
+    <div class="cv-lang">
+        <a href="./Vladyslav_Kosmach_CV_UA.pdf" class="cv-download" download>PDF</a>
+        <a href="index.html">UA</a>
+        <a href="en.html">EN</a>
+    </div>
+</nav>
     <div class="header">
         <div class="header-left">
             <img src="img/profile.png" alt="Фото">

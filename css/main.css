@@ -21,31 +21,44 @@ body {
 .roboto {
   font-family: 'Roboto', sans-serif; }
 
-.lang-switch {
-  position: absolute;
-  top: 20px;
-  right: 40px;
+.cv-nav {
   display: flex;
-  gap: 12px;
-  z-index: 10; }
-  .lang-switch a, .lang-switch span {
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+  background-color: #111;
+  border-bottom: 1px solid #333; }
+  .cv-nav .cv-versions, .cv-nav .cv-lang {
+    display: flex;
+    gap: 8px;
+    align-items: center; }
+  .cv-nav a, .cv-nav span {
+    font-family: 'Roboto', sans-serif;
     color: #a1a0a0;
     text-decoration: none;
-    font-size: 18px;
-    padding: 4px 12px;
+    font-size: 14px;
+    padding: 5px 14px;
     border: 1px solid #4a4a4a;
     border-radius: 4px;
     transition: all 0.2s; }
-  .lang-switch a:hover {
+  .cv-nav a:hover {
     color: #fff;
     border-color: #fff; }
-  .lang-switch .active {
+  .cv-nav .active {
     color: #fff;
     border-color: #fff;
     background-color: #333; }
+  .cv-nav .cv-download {
+    color: #4ecdc4;
+    border-color: #4ecdc4; }
+  .cv-nav .cv-download:hover {
+    background-color: #4ecdc4;
+    color: #111; }
+
+@media print {
+  .cv-nav { display: none; } }
 
 .resume {
-  position: relative;
   min-width: 1250px;
   background-color: #030000;
   padding-bottom: 20px;
